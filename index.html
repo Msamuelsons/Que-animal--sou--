@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Handler</title>
+  </head>
+  <body>
+    <div id="console"></div>
+    <noscript>
+      Para visualização do projeto de classificador de imagens, ative seu
+      javascript!
+    </noscript>
+    <div class="card">
+      <div class="photo">
+        <img id="img" src="Blue-Nose-Pitbull-2-2048x2048.jpg" />
+        <h2 id="name"></h2>
+        <span>Probabilidade de ser o animal:</span>
+        <span id="prob"></span>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
